@@ -36,7 +36,7 @@ const Projects = () => {
     },
     {
       title: 'Galería de Arte',
-      description: 'Aplicación de galería interactiva con servidor Node.js, diseñada para dispositivos móviles con slider y navegación optimizada.',
+      description: 'Aplicación de galería interactiva con servidor Node.js, diseñada para dispositivos móviles con slider y navegación optimizada. (Deploy en render.com)',
       tags: ['JavaScript', 'Node.js', 'Express', 'EJS', 'CSS'],
       github: 'https://github.com/AndyV01/Galery',
       demo: 'https://gallery-0jqi.onrender.com/',
