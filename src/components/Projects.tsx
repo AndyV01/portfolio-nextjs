@@ -39,7 +39,7 @@ const Projects = () => {
       description: 'Aplicación de galería interactiva con servidor Node.js, diseñada para dispositivos móviles con slider y navegación optimizada.',
       tags: ['JavaScript', 'Node.js', 'Express', 'EJS', 'CSS'],
       github: 'https://github.com/AndyV01/Galery',
-      demo: null,
+      demo: 'https://gallery-0jqi.onrender.com/',
       image: ['/projects/galery.jpeg', '/projects/galery02.jpeg']
     },
   ]
