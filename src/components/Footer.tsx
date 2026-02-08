@@ -90,7 +90,7 @@ const Footer = () => {
               <p>Argentina</p>
               <p className="pt-4">
                 <a
-                  href="/Andres-Vallarino-CV.pdf"
+                  href="/CV_Andres_Vallarino.pdf"
                   download
                   className="inline-block px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors"
                 >

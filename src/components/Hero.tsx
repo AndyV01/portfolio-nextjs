@@ -47,7 +47,7 @@ const Hero = () => {
                 Contáctame
               </a>
               <a
-                href="/Andres-Vallarino-CV.pdf"
+                href="CV_Andres_Vallarino.pdf"
                 download
                 className="px-8 py-3 glass-effect hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg font-medium transition-colors flex items-center gap-2"
               >
@@ -96,7 +96,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-primary-400 to-blue-600 rounded-full opacity-20 animate-pulse"></div>
               <div className="absolute inset-8 bg-gradient-to-tl from-primary-500 to-purple-600 rounded-full opacity-30 animate-pulse delay-75"></div>
 
-              {/* Profile image placeholder - puedes reemplazar con tu foto */}
+              {/* Profile image video mp4 */}
               <div className="absolute inset-0 flex items-center justify-center">
                 <video
                   src="/images/Anima_ID.mp4"
