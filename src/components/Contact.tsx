@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { useInView } from 'react-intersection-observer'
 import { Mail, MapPin, Send } from 'lucide-react'
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
   const { ref, inView } = useInView({
@@ -17,9 +18,12 @@ const Contact = () => {
   })
 
   const [isSubmitting, setIsSubmitting] = useState(false)
-  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle')
+  const [submitStatus, setSubmitStatus] =
+    useState<'idle' | 'success' | 'error'>('idle')
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
@@ -29,18 +33,29 @@ const Contact = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsSubmitting(true)
-    
-    // Aquí puedes integrar con un servicio como Formspree, EmailJS, etc.
-    // Por ahora simularemos el envío
-    setTimeout(() => {
-      setIsSubmitting(false)
+    setSubmitStatus('idle')
+   
+    try {
+      await emailjs.send(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          message: formData.message,
+        },
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
+      )
+
       setSubmitStatus('success')
       setFormData({ name: '', email: '', message: '' })
-      
-      setTimeout(() => setSubmitStatus('idle'), 3000)
-    }, 1500)
+    } catch (error) {
+      console.error(error)
+      setSubmitStatus('error')
+    } finally {
+      setIsSubmitting(false)
+    }
   }
-
   const contactInfo = [
     {
       icon: <Mail className="w-6 h-6" />,
@@ -61,9 +76,8 @@ const Contact = () => {
       <div className="max-w-7xl mx-auto">
         <div
           ref={ref}
-          className={`transition-all duration-1000 ${
-            inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-          }`}
+          className={`transition-all duration-1000 ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+            }`}
         >
           {/* Section Title */}
           <div className="text-center mb-16">
@@ -201,6 +215,11 @@ const Contact = () => {
                 {submitStatus === 'success' && (
                   <p className="text-green-600 dark:text-green-400 text-center">
                     ¡Mensaje enviado con éxito! Te contactaré pronto.
+                  </p>
+                )}
+                {submitStatus === 'error' && (
+                  <p className="text-red-600 text-center">
+                    Ocurrió un error. Intentá nuevamente.
                   </p>
                 )}
               </form>
