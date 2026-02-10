@@ -98,19 +98,13 @@ const Hero = () => {
 
               {/* Profile image video mp4 */}
               <div className="absolute inset-0 flex items-center justify-center">
-                <video
-                  src="/images/Anima_ID.mp4"
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                  style={{
-                    borderRadius: '50%',
-                    objectFit: 'cover',
-                    width: 250,
-                    height: 250
-                  }}
-                />
+                <div >
+                  <img
+                    src="/images/id3D.gif"
+                    alt="Andrés Vallarino"
+                    style={{borderRadius: '50%', objectFit: 'cover', width: 250, height: 250}}
+                  />
+                </div>
               </div>
             </div>
           </div>
