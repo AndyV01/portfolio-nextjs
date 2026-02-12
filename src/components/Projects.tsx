@@ -19,12 +19,12 @@ const Projects = () => {
       image: ['/projects/01.jpeg', '/projects/02.jpeg']
     },
     {
-      title: 'Weather App',
-      description: 'Aplicación del clima con integración de API REST, muestra datos meteorológicos en tiempo real con geolocalización y visualización en Google Maps.',
-      tags: ['React', 'API REST', 'Google Maps', 'Geolocation'],
-      github: 'https://github.com/AndyV01/WeatherApp-React',
-      demo: null,
-      image: ['/projects/weather.jpg', '/projects/weather.jpg']
+      title: 'Arcana Mystica — Tarot App',
+      description: 'Aplicación de tarot bilingüe (EN/ES) desarrollada con React + Vite. Incluye mazo completo de 78 cartas, 4 tipos de tiradas (Single, PPF, Celtic Cross, Love), animaciones 3D con flip, cartas invertidas, contador persistente de lecturas y visitas, fondo animado con Canvas y arte SVG generativo.',
+      tags: ['React', 'Vite', 'CSS 3D', 'Canvas API', 'SVG', 'i18n', 'localStorage'],
+      github: 'https://github.com/AndyV01/arcana-mystica',
+      demo: 'https://arcana-mystica.vercel.app/',
+      image: ['/projects/arcana.jpg', '/projects/arcana.jpg']
     },
     {
       title: 'Store Angular',
