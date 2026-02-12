@@ -12,7 +12,7 @@ const Projects = () => {
   const projects = [
     {
       title: 'E-commerce KushTeen',
-      description: 'Plataforma completa de e-commerce con React, Node.js, PostgreSQL. Incluye autenticación, carrito de compras, blog de noticias y panel de administración.',
+      description: 'Plataforma de e-commerce full-stack desarrollada con React en el frontend y Node.js + Express en el backend, conectada a una base de datos PostgreSQL gestionada mediante Sequelize ORM. La aplicación incluye catálogo dinámico de productos con diseño responsive mobile-first, carrito de compras con manejo de estado, autenticación de usuarios, sistema de suscripciones, sección de noticias/blog y chatbot integrado. Consume y gestiona datos a través de una API REST propia, aplicando separación de responsabilidades entre cliente y servidor. El proyecto implementa un pipeline de CI/CD con GitHub Actions que ejecuta instalación de dependencias, validación de código con ESLint, build automático y despliegue continuo, simulando un entorno de producción real y aplicando buenas prácticas modernas de desarrollo frontend.',
       tags: ['React', 'Node.js', 'Express', 'PostgreSQL', 'Sequelize'],
       github: 'https://github.com/AndyV01/FrontEndReact',
       demo: 'https://kushteenuy.netlify.app',
