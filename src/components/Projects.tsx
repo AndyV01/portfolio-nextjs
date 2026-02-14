@@ -24,7 +24,7 @@ const Projects = () => {
       tags: ['React', 'Vite', 'CSS 3D', 'Canvas API', 'SVG', 'i18n', 'localStorage'],
       github: 'https://github.com/AndyV01/arcana-mystica',
       demo: 'https://arcana-mystica.vercel.app/',
-      image: ['/projects/home_arcana.jpeg', '/projects/cards.jpeg']
+      image: ['/projects/arcana01.png', '/projects/arcana02.png']
     },
     {
       title: 'Store Angular',
