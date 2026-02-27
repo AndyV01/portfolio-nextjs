@@ -8,56 +8,55 @@ const Skills = () => {
     threshold: 0.1,
   })
 
-  const skillCategories = [
-    {
-      title: 'Frontend',
-      skills: [
-        'React',
-        'Next.js',
-        'TypeScript',
-        'JavaScript',
-        'HTML5',
-        'CSS3',
-        'Tailwind CSS',
-        'Sass/SCSS',
-      ],
-    },
-    {
-      title: 'Backend & Database',
-      skills: [
-        'Node.js',
-        'Express',
-        'PostgreSQL',
-        'MongoDB',
-        'Sequelize',
-        'REST API',
-      ],
-    },
-    {
-      title: 'Herramientas & DevOps',
-      skills: [
-        'Git & GitHub',
-        'VS Code',
-        'npm/yarn',
-        'Webpack',
-        'Vercel',
-        'Netlify',
-        'Docker',
-        'GitHub Actions',
-      ],
-    },
-    {
-      title: 'Otros',
-      skills: [
-        'Responsive Design',
-        'Accesibilidad (a11y)',
-        'SEO',
-        'Performance',
-        'Testing',
-        'Agile/Scrum',
-      ],
-    },
-  ]
+const skillCategories = [
+  {
+    title: 'Frontend',
+    skills: [
+      'React',
+      'Next.js',
+      'TypeScript',
+      'JavaScript',
+      'Vite',
+      'Tailwind CSS',
+      'HTML5',
+      'CSS3',
+    ],
+  },
+  {
+    title: 'IA & Agentes',
+    skills: [
+      'LangChain',
+      'RAG',
+      'Multi-Agent Systems',
+      'ChromaDB',
+      'Ollama / Llama',
+      'Embeddings',
+      'Prompt Engineering',
+    ],
+  },
+  {
+    title: 'Backend',
+    skills: [
+      'Python',
+      'FastAPI',
+      'Node.js',
+      'Express',
+      'PostgreSQL',
+      'MongoDB',
+      'REST API',
+    ],
+  },
+  {
+    title: 'DevOps & Tools',
+    skills: [
+      'Git & GitHub',
+      'CI/CD - GitHub Actions',
+      'Vercel',
+      'Netlify',
+      'Railway',
+    ],
+  },
+]
 
   return (
     <section id="skills" className="py-20 px-4 sm:px-6 lg:px-8">
@@ -111,13 +110,13 @@ const Skills = () => {
               </h3>
               <div className="flex flex-wrap justify-center gap-3">
                 <span className="px-4 py-2 bg-gradient-to-r from-primary-600 to-blue-600 text-white rounded-full font-medium">
-                  React Server Components
+                  LangGraph & Agent Frameworks
                 </span>
                 <span className="px-4 py-2 bg-gradient-to-r from-primary-600 to-blue-600 text-white rounded-full font-medium">
-                  Web3
+                  Production AI Systems
                 </span>
                 <span className="px-4 py-2 bg-gradient-to-r from-primary-600 to-blue-600 text-white rounded-full font-medium">
-                  AI Integration
+                 React Server Components
                 </span>
               </div>
             </div>
