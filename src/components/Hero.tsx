@@ -35,7 +35,7 @@ const Hero = () => {
             </h2>
 
             <p className="text-lg text-gray-600 dark:text-gray-400 max-w-lg">
-              Soy Desarrollador Frontend / Full-Stack, con foco en React, TypeScript y Next.js, especializado en la creación de aplicaciones web escalables, mantenibles y orientadas a producto, aplicando buenas prácticas de código, UX y arquitectura frontend.
+              Soy Desarrollador Frontend / Full-Stack especializado en React, TypeScript y Next.js. Construyo aplicaciones web escalables y sistemas con arquitectura multi-agente, aplicando IA en producción, buenas prácticas de código y arquitectura frontend moderna.
             </p>
 
             {/* CTA Buttons */}
