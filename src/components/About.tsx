@@ -47,24 +47,16 @@ const About = () => {
             {/* Left - Description */}
             <div className="space-y-6">
               <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-                Soy Desarrollador Frontend / Full-Stack con experiencia profesional desde 2021,
-                con foco en React, TypeScript y Next.js, orientado a la creación de aplicaciones web escalables,
-                mantenibles y centradas en producto, aplicando buenas prácticas de código, UX y arquitectura frontend.
+                Desarrollador Frontend / Full-Stack especializado en React, TypeScript y Next.js, con experiencia profesional desde 2021 creando aplicaciones web escalables y centradas en producto.
               </p>
               <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-                Mi último rol fue en el equipo de Producto de FlexiPaaS (OpenDevPro), donde trabajé principalmente en el desarrollo del frontend utilizando React,
-                Next y TypeScript. Participé en la construcción del módulo Flowchart,
-                desarrollando editores visuales para integraciones mediante nodos configurables,
-                con funcionalidades como drag & drop de variables, previsualización, validaciones dinámicas y componentes reutilizables.
+                En FlexiPaaS (OpenDevPro) lideré el desarrollo del módulo Flowchart: editores visuales drag &amp; drop para integraciones con nodos configurables, validaciones dinámicas y componentes reutilizables. Integración seamless con backend Spring Boot y APIs REST en producción.
               </p>
               <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-                Colaboré estrechamente con equipos backend, integrando el frontend con servicios en Spring Boot y APIs REST, participando en mantenimiento evolutivo y resolución de bugs en entornos productivos.
-                Trabajo con comodidad en equipos ágiles, utilizando Git y Jira, participando en dailies, demos y comunicación continua.
+                Recientemente construí sistemas con arquitectura multi-agente y RAG (Retrieval-Augmented Generation), aplicando LLMs locales y en producción. Cuento con certificación en IA Generativa y Prompt Engineering (Desafío Latam). Mis proyectos demuestran orquestación de agentes especializados con Python + LangChain, RAG con ChromaDB y embeddings vectoriales, y deploy de sistemas de IA en Railway y Vercel.
               </p>
               <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-                Complemento mi experiencia con formación continua. Cuento con certificación en IA Generativa y Prompt Engineering (Desafío Latam), aplicando IA para mejorar productividad, documentación y flujos de desarrollo.
-
-                Me interesa aportar valor real a proyectos y equipos, seguir creciendo y construir productos digitales de calidad.
+                Trabajo efectivamente en equipos ágiles (Scrum/Kanban), con fuerte comunicación en dailies, demos y colaboración continua usando Git, Jira y herramientas modernas de desarrollo. Mi fortaleza clave es la adaptabilidad rápida con actitud positiva en entornos dinámicos.
               </p>
             </div>
 
