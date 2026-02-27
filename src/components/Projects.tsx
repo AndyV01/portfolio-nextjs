@@ -10,29 +10,30 @@ const Projects = () => {
   })
 
   const projects = [
+    
+     {
+      title: 'Job Assistant AI',
+      description: 'Asistente de búsqueda laboral potenciado por IA con arquitectura multi-agente. El sistema unifica tres tareas clave en un solo flujo: encontrar ofertas, analizar su ajuste técnico y optimizar el CV para mejorar la postulación',
+      tags: ['Vite', 'TailwindCSS', 'React', 'Ollama', 'ChromaDB', 'LangChain', 'FastAPI', 'Python'],
+      github: 'https://github.com/AndyV01/job-assistant-ai',
+      demo: 'https://job-assistant-ai-tzle.vercel.app/',
+      image: ['/projects/job-ia.png', '/projects/job-ia02.png']
+    },
     {
+      title: 'Arcana Mystica — Tarot App',
+      description: 'App de lectura de Tarot de nivel producción con sistema multi-agente de IA integrado. Construida con React + Vite, interpretaciones generadas por Claude 3 Haiku via Anthropic API en una arquitectura de 3 agentes especializados deployados como Serverless Functions en Vercel.',
+      tags: ['React', 'Vite', 'CSS 3D', 'Canvas API', 'SVG', 'i18n', 'localStorage', 'Anthropic API', 'Vercel Serverless'],
+      github: 'https://github.com/AndyV01/arcana-mystica',
+      demo: 'https://arcana-mystica.vercel.app/',
+      image: ['/projects/arcana01.png', '/projects/arcana02.png']
+    },
+   {
       title: 'E-commerce KushTeen',
       description: 'Plataforma de e-commerce full-stack desarrollada con React en el frontend y Node.js + Express en el backend, conectada a una base de datos PostgreSQL gestionada mediante Sequelize ORM. La aplicación incluye catálogo dinámico de productos con diseño responsive mobile-first, carrito de compras con manejo de estado, autenticación de usuarios, sistema de suscripciones, sección de noticias/blog y chatbot integrado. Consume y gestiona datos a través de una API REST propia, aplicando separación de responsabilidades entre cliente y servidor. El proyecto implementa un pipeline de CI/CD con GitHub Actions que ejecuta instalación de dependencias, validación de código con ESLint, build automático y despliegue continuo, simulando un entorno de producción real y aplicando buenas prácticas modernas de desarrollo frontend.',
       tags: ['React', 'Node.js', 'Express', 'PostgreSQL', 'Sequelize'],
       github: 'https://github.com/AndyV01/FrontEndReact',
       demo: 'https://kushteenuy.netlify.app',
       image: ['/projects/01.jpeg', '/projects/02.jpeg']
-    },
-    {
-      title: 'Arcana Mystica — Tarot App',
-      description: 'Aplicación de tarot bilingüe (EN/ES) desarrollada con React + Vite. Incluye mazo completo de 78 cartas, 4 tipos de tiradas (Single, PPF, Celtic Cross, Love), animaciones 3D con flip, cartas invertidas, contador persistente de lecturas y visitas, fondo animado con Canvas y arte SVG generativo.',
-      tags: ['React', 'Vite', 'CSS 3D', 'Canvas API', 'SVG', 'i18n', 'localStorage'],
-      github: 'https://github.com/AndyV01/arcana-mystica',
-      demo: 'https://arcana-mystica.vercel.app/',
-      image: ['/projects/arcana01.png', '/projects/arcana02.png']
-    },
-    {
-      title: 'Store Angular',
-      description: 'E-commerce moderno desarrollado en Angular 12 con Material UI, sistema de carrito, formularios de delivery y gestión de horarios de tiendas.',
-      tags: ['Angular 12', 'Material UI', 'TypeScript', 'RxJS'],
-      github: 'https://github.com/AndyV01/Store_Angular12/tree/master/store',
-      demo: null,
-      image: ['/projects/store.jpg', '/projects/store.jpg']
     },
     {
       title: 'Galería de Arte',
