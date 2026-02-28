@@ -6,77 +6,32 @@ Portfolio profesional desarrollado con las tecnologías más modernas del ecosis
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue?style=for-the-badge&logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38bdf8?style=for-the-badge&logo=tailwind-css)
 
-## 🌟 Características
+🔗 **[Ver en vivo](https://portfolio-nextjs-nine-lac.vercel.app/)**
 
-- ⚡️ **Next.js 15** - Framework de React con SSR y SSG
-- 🎨 **Tailwind CSS** - Diseño moderno y responsive
-- 📱 **Diseño Responsive** - Optimizado para todos los dispositivos
-- 🌙 **Dark Mode** - Tema claro/oscuro
-- ⚡ **Performance Optimizada** - Carga rápida y eficiente
-- 🎭 **Animaciones Suaves** - Experiencia de usuario fluida
-- 📊 **SEO Optimizado** - Meta tags y estructura semántica
-- ♿ **Accesible** - Cumple con estándares WCAG
-- 🔧 **TypeScript** - Código type-safe y mantenible
+## 🛠️ Stack
 
-## 📦 Tecnologías Utilizadas
+- **Next.js 15** + **React 19** — App Router, SSR
+- **TypeScript** — tipado estático
+- **Tailwind CSS** — estilos utility-first
+- **Framer Motion** — animaciones
+- **Vercel** — deploy en producción
 
-### Frontend
-- **Next.js 15** - Framework de React
-- **React 19** - Librería UI
-- **TypeScript** - Tipado estático
-- **Tailwind CSS** - Estilos utility-first
-- **Framer Motion** - Animaciones
-- **Lucide React** - Iconos
-
-### Herramientas de Desarrollo
-- **ESLint** - Linting
-- **PostCSS** - Procesamiento de CSS
-- **Autoprefixer** - Prefijos CSS automáticos
-
-## 📁 Estructura del Proyecto
-
-```
-portfolio-nextjs/
-├── public/              # Archivos estáticos
-│   └── projects/        # Imágenes de proyectos
-├── src/
-│   ├── app/            # App Router de Next.js
-│   │   ├── globals.css # Estilos globales
-│   │   ├── layout.tsx  # Layout principal
-│   │   └── page.tsx    # Página principal
-│   └── components/     # Componentes React
-│       ├── Navbar.tsx
-│       ├── Hero.tsx
-│       ├── About.tsx
-│       ├── Skills.tsx
-│       ├── Projects.tsx
-│       ├── Contact.tsx
-│       └── Footer.tsx
-├── tailwind.config.js  # Configuración de Tailwind
-├── tsconfig.json       # Configuración de TypeScript
-└── next.config.js      # Configuración de Next.js
+## 🚀 Correr localmente
+```bash
+git clone https://github.com/AndyV01/portfolio-nextjs.git
+cd portfolio-nextjs
+npm install
+npm run dev
 ```
 
-### Contenido
-
-1. **Información personal**: Edita los componentes en `src/components/`
-2. **Proyectos**: Actualiza el array `projects` en `src/components/Projects.tsx`
-3. **Habilidades**: Modifica `skillCategories` en `src/components/Skills.tsx`
-4. **Links sociales**: Actualiza los enlaces en `Hero.tsx` y `Footer.tsx`
-
-## 📄 Licencia
-
-Este proyecto es de código abierto .
+Abrir en `http://localhost:3000`
 
 ## 👤 Autor
 
 **Andrés Vallarino**
-
-- GitHub: https://github.com/AndyV01
-- LinkedIn: https://www.linkedin.com/in/andres-vallarino/
+- GitHub: [@AndyV01](https://github.com/AndyV01)
+- LinkedIn: [andres-vallarino](https://www.linkedin.com/in/andres-vallarino/)
 - Email: andyduffdj25@gmail.com
-
----
 
 ⭐ Si te gusta este proyecto, ¡dale una estrella en GitHub!
 
