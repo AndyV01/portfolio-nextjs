@@ -161,40 +161,6 @@ Luego sube la carpeta `.next` a Netlify.
 - **Railway**: Deploy directo desde GitHub
 - **DigitalOcean**: App Platform con Node.js
 
-## 📝 Checklist de Personalización
-
-Antes de hacer deploy, asegúrate de:
-
-- [ ] Actualizar información personal en todos los componentes
-- [ ] Reemplazar enlaces de GitHub/LinkedIn/Email
-- [ ] Agregar tus proyectos reales con descripciones
-- [ ] Subir imágenes de tus proyectos
-- [ ] Actualizar el CV en `/public/`
-- [ ] Configurar formulario de contacto (EmailJS, Formspree, etc.)
-- [ ] Actualizar meta tags en `layout.tsx`
-- [ ] Probar responsive en diferentes dispositivos
-- [ ] Verificar performance con Lighthouse
-- [ ] Probar dark mode
-
-## 🎯 Mejoras Futuras
-
-- [ ] Blog con MDX
-- [ ] Testimonios de clientes
-- [ ] Integración con CMS (Contentful, Sanity)
-- [ ] Analytics (Google Analytics, Plausible)
-- [ ] Formulario de contacto funcional
-- [ ] Tests con Jest y Testing Library
-- [ ] Modo multiidioma (i18n)
-- [ ] Animaciones más avanzadas con Framer Motion
-
-## 🐛 Problemas Conocidos
-
-Si encuentras algún problema:
-
-1. Verifica que tienes Node.js 18+
-2. Borra `node_modules` y reinstala: `npm install`
-3. Limpia caché de Next.js: `rm -rf .next`
-
 ## 📄 Licencia
 
 Este proyecto es de código abierto .
