@@ -107,22 +107,6 @@ portfolio-nextjs/
 └── next.config.js      # Configuración de Next.js
 ```
 
-## 🎨 Personalización
-
-### Colores
-
-Edita `tailwind.config.js` para cambiar la paleta de colores:
-
-```javascript
-colors: {
-  primary: {
-    500: '#0ea5e9',
-    600: '#0284c7',
-    // ...
-  }
-}
-```
-
 ### Contenido
 
 1. **Información personal**: Edita los componentes en `src/components/`
@@ -137,25 +121,7 @@ Coloca tus imágenes en:
 - `/public/projects/` - Para screenshots de proyectos
 - Actualiza las rutas en los componentes correspondientes
 
-## 🚀 Deploy
-
-### Vercel (Recomendado)
-
-1. Sube tu código a GitHub
-2. Visita [vercel.com](https://vercel.com)
-3. Importa tu repositorio
-4. Vercel detectará Next.js automáticamente
-5. ¡Deploy! 🎉
-
 ### Netlify
-
-```bash
-npm run build
-```
-
-Luego sube la carpeta `.next` a Netlify.
-
-### Otras Opciones
 
 - **GitHub Pages**: Requiere configuración adicional para Next.js
 - **Railway**: Deploy directo desde GitHub
@@ -169,8 +135,8 @@ Este proyecto es de código abierto .
 
 **Andrés Vallarino**
 
-- GitHub: [@AndyV01](https://github.com/AndyV01)
-- LinkedIn: [Tu Perfil](https://www.linkedin.com/in/andres-vallarino/)
+- GitHub: https://github.com/AndyV01
+- LinkedIn: https://www.linkedin.com/in/andres-vallarino/
 - Email: andyduffdj25@gmail.com
 
 ---
