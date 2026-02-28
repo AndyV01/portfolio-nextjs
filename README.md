@@ -33,56 +33,6 @@ Portfolio profesional desarrollado con las tecnologías más modernas del ecosis
 - **PostCSS** - Procesamiento de CSS
 - **Autoprefixer** - Prefijos CSS automáticos
 
-## 🚀 Inicio Rápido
-
-### Prerequisitos
-
-- Node.js 18+ 
-- npm o yarn
-
-### Instalación
-
-1. **Clonar el repositorio**
-```bash
-git clone https://github.com/AndyV01/portfolio-nextjs.git
-cd portfolio-nextjs
-```
-
-2. **Instalar dependencias**
-```bash
-npm install
-# o
-yarn install
-```
-
-3. **Ejecutar en desarrollo**
-```bash
-npm run dev
-# o
-yarn dev
-```
-
-4. **Abrir en el navegador**
-```
-http://localhost:3000
-```
-
-## 🛠️ Scripts Disponibles
-
-```bash
-# Desarrollo
-npm run dev
-
-# Construcción para producción
-npm run build
-
-# Iniciar servidor de producción
-npm run start
-
-# Linting
-npm run lint
-```
-
 ## 📁 Estructura del Proyecto
 
 ```
@@ -113,19 +63,6 @@ portfolio-nextjs/
 2. **Proyectos**: Actualiza el array `projects` en `src/components/Projects.tsx`
 3. **Habilidades**: Modifica `skillCategories` en `src/components/Skills.tsx`
 4. **Links sociales**: Actualiza los enlaces en `Hero.tsx` y `Footer.tsx`
-
-### Imágenes
-
-Coloca tus imágenes en:
-- `/public/` - Para imágenes estáticas
-- `/public/projects/` - Para screenshots de proyectos
-- Actualiza las rutas en los componentes correspondientes
-
-### Netlify
-
-- **GitHub Pages**: Requiere configuración adicional para Next.js
-- **Railway**: Deploy directo desde GitHub
-- **DigitalOcean**: App Platform con Node.js
 
 ## 📄 Licencia
 
