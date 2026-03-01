@@ -13,11 +13,11 @@ const Projects = () => {
     
      {
       title: 'Job Assistant AI',
-      description: 'Asistente de búsqueda laboral potenciado por IA con arquitectura multi-agente. El sistema unifica tres tareas clave en un solo flujo: encontrar ofertas, analizar su ajuste técnico y optimizar el CV para mejorar la postulación',
-      tags: ['Vite', 'TailwindCSS', 'React', 'Ollama', 'ChromaDB', 'LangChain', 'FastAPI', 'Python'],
+      description: 'Asistente de búsqueda laboral con arquitectura multi-agente y LLM tool calling real. 3 agentes especializados (Scraper, Analyzer, CV Optimizer) coordinados por un orquestador. Datos reales via Adzuna API y CV Optimizer con Groq + LangChain.',
+      tags: ['React', 'Vite', 'TailwindCSS', 'Python', 'FastAPI', 'LangChain', 'Groq API', 'Adzuna API'],
       github: 'https://github.com/AndyV01/job-assistant-ai',
       demo: 'https://job-assistant-ai-tzle.vercel.app/',
-      image: ['/projects/job-ia.png', '/projects/job-ia02.png']
+      image: ['/projects/job_ia03.png', '/projects/job_ia04.png']
     },
     {
       title: 'Arcana Mystica — Tarot App',
