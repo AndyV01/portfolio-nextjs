@@ -53,7 +53,7 @@ const About = () => {
                 En FlexiPaaS (OpenDevPro) lideré el desarrollo del módulo Flowchart: editores visuales drag &amp; drop para integraciones con nodos configurables, validaciones dinámicas y componentes reutilizables. Integración seamless con backend Spring Boot y APIs REST en producción.
               </p>
               <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-                Recientemente construí sistemas con arquitectura multi-agente y RAG (Retrieval-Augmented Generation), aplicando LLMs locales y en producción. Cuento con certificación en IA Generativa y Prompt Engineering (Desafío Latam). Mis proyectos demuestran orquestación de agentes especializados con Python + LangChain, RAG con ChromaDB y embeddings vectoriales, y deploy de sistemas de IA en Railway y Vercel.
+                Recientemente construí sistemas con arquitectura multi-agente y LLM Tool Calling real, aplicando LLMs en producción via Groq API y Anthropic API. Cuento con certificación en IA Generativa y Prompt Engineering (Desafío Latam). Mis proyectos demuestran orquestación de agentes especializados con Python + LangChain, tool calling real con Groq + LangChain tools, y deploy de sistemas de IA en Railway y Vercel.
               </p>
               <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
                 Trabajo efectivamente en equipos ágiles (Scrum/Kanban), con fuerte comunicación en dailies, demos y colaboración continua usando Git, Jira y herramientas modernas de desarrollo. Mi fortaleza clave es la adaptabilidad rápida con actitud positiva en entornos dinámicos.
