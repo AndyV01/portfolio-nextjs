@@ -17,7 +17,7 @@ const Projects = () => {
       tags: ['React', 'Vite', 'TailwindCSS', 'Python', 'FastAPI', 'LangChain', 'Groq API', 'Adzuna API'],
       github: 'https://github.com/AndyV01/job-assistant-ai',
       demo: 'https://job-assistant-ai-tzle.vercel.app/',
-      image: ['/projects/job_ia03.png', '/projects/job_ia04.png']
+      image: ['/projects/job_ia05.png', '/projects/job_ia06.png']
     },
     {
       title: 'Arcana Mystica — Tarot App',
