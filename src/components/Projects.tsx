@@ -13,8 +13,8 @@ const Projects = () => {
     
      {
       title: 'Job Assistant AI',
-      description: 'Asistente de búsqueda laboral con arquitectura multi-agente y LLM tool calling real. 3 agentes especializados (Scraper, Analyzer, CV Optimizer) coordinados por un orquestador. Datos reales via Adzuna API y CV Optimizer con Groq + LangChain.',
-      tags: ['React', 'Vite', 'TailwindCSS', 'Python', 'FastAPI', 'LangChain', 'Groq API', 'Adzuna API'],
+      description: 'Asistente de búsqueda laboral con arquitectura multi-agente y LLM tool calling real. 3 agentes especializados (Scraper, Analyzer, CV Optimizer) coordinados por un orquestador LangGraph con memoria persistente y retry logic. CV Optimizer con RAG real (FAISS + Embeddings). Datos reales via Adzuna API.',
+      tags: ['React', 'Vite', 'TailwindCSS', 'Python', 'FastAPI', 'LangChain', 'Groq API', 'Adzuna API', 'LangGraph', 'RAG', 'FAISS'],
       github: 'https://github.com/AndyV01/job-assistant-ai',
       demo: 'https://job-assistant-ai-tzle.vercel.app/',
       image: ['/projects/job_ia05.png', '/projects/job_ia06.png']

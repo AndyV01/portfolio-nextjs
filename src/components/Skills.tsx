@@ -26,6 +26,8 @@ const Skills = () => {
       title: 'IA & Agentes',
       skills: [
         'LangChain',
+        'LangGraph',
+        'RAG',
         'LLM Tool Calling',
         'Multi-Agent Systems',
         'Groq API',
@@ -107,7 +109,7 @@ const Skills = () => {
               </h3>
               <div className="flex flex-wrap justify-center gap-3">
                 <span className="px-4 py-2 bg-gradient-to-r from-primary-600 to-blue-600 text-white rounded-full font-medium">
-                  LangGraph & Agent Frameworks
+                  Agent Frameworks
                 </span>
                 <span className="px-4 py-2 bg-gradient-to-r from-primary-600 to-blue-600 text-white rounded-full font-medium">
                   Production AI Systems
