@@ -25,7 +25,7 @@ const Projects = () => {
       tags: ['React', 'Vite', 'CSS 3D', 'Canvas API', 'SVG', 'i18n', 'localStorage', 'OpenAI API', 'Vercel Serverless', 'Multi-Agent AI'],
       github: 'https://github.com/AndyV01/arcana-mystica',
       demo: 'https://arcana-mystica.vercel.app/',
-      image: ['/projects/arcana02.png', '/projects/arcana03.png']
+      image: ['/projects/arcana03.png', '/projects/arcana04.png']
     },
    {
       title: 'E-commerce KushTeen',
