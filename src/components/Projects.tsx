@@ -21,11 +21,11 @@ const Projects = () => {
     },
     {
       title: 'Arcana Mystica — Tarot App',
-      description: 'App de lectura de Tarot de nivel producción con sistema multi-agente de IA integrado. Construida con React + Vite, interpretaciones generadas por Claude 3 Haiku via Anthropic API en una arquitectura de 3 agentes especializados deployados como Serverless Functions en Vercel.',
-      tags: ['React', 'Vite', 'CSS 3D', 'Canvas API', 'SVG', 'i18n', 'localStorage', 'Anthropic API', 'Vercel Serverless'],
+      description: 'App de lectura de Tarot con arquitectura multi-agente de IA en producción. Construida con React + Vite, genera interpretaciones con OpenAI Responses API mediante un pipeline orquestado de agentes especializados, con memoria de perfil persistente, diario de lecturas, carta diaria, horóscopo semanal y lecturas personalizadas por fecha de nacimiento. Deployada con Serverless Functions en Vercel.',
+      tags: ['React', 'Vite', 'CSS 3D', 'Canvas API', 'SVG', 'i18n', 'localStorage', 'OpenAI API', 'Vercel Serverless', 'Multi-Agent AI'],
       github: 'https://github.com/AndyV01/arcana-mystica',
       demo: 'https://arcana-mystica.vercel.app/',
-      image: ['/projects/arcana01.png', '/projects/arcana02.png']
+      image: ['/projects/arcana02.png', '/projects/arcana03.png']
     },
    {
       title: 'E-commerce KushTeen',
