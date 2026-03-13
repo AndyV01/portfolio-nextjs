@@ -10,8 +10,8 @@ const Projects = () => {
   })
 
   const projects = [
-    
-     {
+
+    {
       title: 'Job Assistant AI',
       description: 'Asistente de búsqueda laboral con arquitectura multi-agente y LLM tool calling real. 3 agentes especializados (Scraper, Analyzer, CV Optimizer) coordinados por un orquestador LangGraph con memoria persistente y retry logic. CV Optimizer con RAG real (FAISS + Embeddings). Datos reales via Adzuna API.',
       tags: ['React', 'Vite', 'TailwindCSS', 'Python', 'FastAPI', 'LangChain', 'Groq API', 'Adzuna API', 'LangGraph', 'RAG', 'FAISS'],
@@ -21,13 +21,13 @@ const Projects = () => {
     },
     {
       title: 'Arcana Mystica — Tarot App',
-      description: 'App de lectura de Tarot con arquitectura multi-agente de IA en producción. Construida con React + Vite, genera interpretaciones con OpenAI Responses API mediante un pipeline orquestado de agentes especializados, con memoria de perfil persistente, diario de lecturas, carta diaria, horóscopo semanal y lecturas personalizadas por fecha de nacimiento. Deployada con Serverless Functions en Vercel.',
-      tags: ['React', 'Vite', 'CSS 3D', 'Canvas API', 'SVG', 'i18n', 'localStorage', 'OpenAI API', 'Vercel Serverless', 'Multi-Agent AI'],
+      description: 'App de lectura de Tarot con arquitectura multi-agente de IA en producción. Construida con React + Vite, orquesta un pipeline de agentes especializados con LangGraph StateGraph, genera interpretaciones con Groq (Llama 3.3) y tiene observabilidad completa via LangSmith. Incluye memoria de perfil persistente, diario de lecturas, carta diaria, horóscopo semanal y lecturas personalizadas por fecha de nacimiento. Deployada con Serverless Functions en Vercel.',
+      tags: ['React', 'Vite', 'LangGraph', 'LangSmith', 'Groq API', 'Llama 3.3', 'CSS 3D', 'i18n', 'localStorage', 'Vercel Serverless', 'Multi-Agent AI'],
       github: 'https://github.com/AndyV01/arcana-mystica',
       demo: 'https://arcana-mystica.vercel.app/',
       image: ['/projects/arcana03.png', '/projects/arcana04.png']
     },
-   {
+    {
       title: 'E-commerce KushTeen',
       description: 'Plataforma de e-commerce full-stack desarrollada con React en el frontend y Node.js + Express en el backend, conectada a una base de datos PostgreSQL gestionada mediante Sequelize ORM. La aplicación incluye catálogo dinámico de productos con diseño responsive mobile-first, carrito de compras con manejo de estado, autenticación de usuarios, sistema de suscripciones, sección de noticias/blog y chatbot integrado. Consume y gestiona datos a través de una API REST propia, aplicando separación de responsabilidades entre cliente y servidor. El proyecto implementa un pipeline de CI/CD con GitHub Actions que ejecuta instalación de dependencias, validación de código con ESLint, build automático y despliegue continuo, simulando un entorno de producción real y aplicando buenas prácticas modernas de desarrollo frontend.',
       tags: ['React', 'Node.js', 'Express', 'PostgreSQL', 'Sequelize'],
