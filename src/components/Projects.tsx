@@ -36,12 +36,12 @@ const Projects = () => {
       image: ['/projects/01.jpeg', '/projects/02.jpeg']
     },
     {
-      title: 'Galería de Arte',
-      description: 'Aplicación de galería interactiva con servidor Node.js, diseñada para dispositivos móviles con slider y navegación optimizada. (Deploy en render.com)',
-      tags: ['JavaScript', 'Node.js', 'Express', 'EJS', 'CSS'],
-      github: 'https://github.com/AndyV01/Galery',
-      demo: 'https://gallery-0jqi.onrender.com/',
-      image: ['/projects/galery.jpeg', '/projects/galery02.jpeg']
+      title: 'Market-Intelligence-Ai',
+      description: 'Sistema multi‑agente para análisis de cripto y construcción de portafolio en ARS,Scoring cuantitativo + sentimiento (LLM con fallback heurístico), Detección de oportunidades (BUY / STRONG_BUY / WAIT / SELL / AVOID), Generación de reportes personalizados (PDF + gráficos), Pipeline de CI/CD con GitHub Actions, Deploy en Vercel con Serverless Functions.',
+      tags: ['Python', 'FastAPI', 'LangChain','LLM', 'Embeddings', 'vite', 'React', 'GitHub Actions', 'Vercel Serverless'],
+      github: 'https://github.com/AndyV01/market-intelligence-ai',
+      demo: 'https://market-intelligence-ai-three.vercel.app/',
+      image: ['/projects/market.png', '/projects/market01.png']
     },
   ]
 

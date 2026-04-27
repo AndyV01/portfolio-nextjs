@@ -47,7 +47,7 @@ const Hero = () => {
                 Contáctame
               </a>
               <a
-                href="/CV_AndresVallarino.pdf"
+                href="/CV_Andres.Vallarino.pdf"
                 download
                 className="px-8 py-3 glass-effect hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg font-medium transition-colors flex items-center gap-2"
               >
